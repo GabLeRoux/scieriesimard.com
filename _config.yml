@@ -1,0 +1,34 @@
+title: Scirie Simard
+email: lebreton.gabriel@gmail.com
+description: >-
+  Scierie Simard Inc. est une entreprise de la région du nord du québec oeuvrant dans le domaine du bois et des mines.
+baseurl: ""
+url: "https://scieriesimard.com"
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+comments: false
+
+google_analytics_code: UA-42384341-1
+
+facebook_default_image: images/layout/sharing-gableroux.jpg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - package.json
+  - bower.json
+  - npm-debug.log
+  - .travis.yml
+  - yarn.lock
+  - ReadMe.md
+  - LICENSE.md
+
+include: [
+    bower_components,
+]
